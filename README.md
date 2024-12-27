@@ -9,5 +9,5 @@ Module 14 homework
     README.md
 
     static\js
-        .gitkeep - 
+        .gitkeep - empty file
         app.js - D3 to dynamically update the website
