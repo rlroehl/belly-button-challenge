@@ -14,7 +14,6 @@ The dataset reveals that a small handful of microbial species (also called opera
     README.md
     
     static\js
-        .gitkeep - empty file
         app.js - D3 to dynamically update the website
 
 
