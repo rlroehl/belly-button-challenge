@@ -24,7 +24,7 @@
         <div class="card card-body bg-light">
           <h6>Test Subject ID Number:</h6>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
+          </div>
         <br>
         <div class="card card-primary">
           <div class="card-header">
@@ -34,12 +34,12 @@
         </div>
       </div>
       <div class="col-md-9">
-        <div id="bar"></div>
+        <div id="barPlot" style="height: 400px;"></div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div id="bubble"></div>
+        <div id="bubblePlot" style="height: 600px;"></div>
       </div>
     </div>
   </div>
@@ -47,7 +47,7 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="./static/js/app.js"></script>
-
+  <script> document.addEventListener("DOMContentLoaded", function() {buildMetadata("940"), buildCharts("940")}); </script>
 </body>
 
 </html>
